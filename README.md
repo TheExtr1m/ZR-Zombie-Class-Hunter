@@ -7,7 +7,7 @@
 
 Example: 
 
-<img align="right" src="https://i.imgur.com/NYXOAsv.png" height="200" width="200">
+<img align="right" src="https://i.imgur.com/NYXOAsv.png" height="400" width="200">
 
 ### Server ConVars
 
