@@ -60,6 +60,12 @@ public void OnPluginStart()
 	gCV_PLeapPower.AddChangeHook(ConVarChange);
 	gCV_PSound_mp3.AddChangeHook(ConVarChange);
 	
+	gB_PEnabled = gCV_PEnabled.BoolValue;
+	gF_PLeapCooldown = gCV_PLeapCooldown.FloatValue;
+	gF_PLeapPower = gCV_PLeapPower.FloatValue;
+	
+	AutoExecConfig(true, "zr_class_hunter", "zombiereloaded");
+	
 	gCV_PSound_mp3.GetString(SoundMP3, sizeof(SoundMP3));
 }
 
