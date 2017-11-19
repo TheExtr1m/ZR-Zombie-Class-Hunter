@@ -2,7 +2,7 @@
 * The plugin adds to your server a unique class of zombies, which allows you to jump in the direction of your sight (buttons Duck+Use).
 
 ### Requirements
-* This plugin requires Zombie:Reloaded.
+* This plugin requires Zombie:Reloaded and ZR Tools.
 * In the class settings, add a line: "class_zombie" "hunter"
 
 Example: 
@@ -14,7 +14,9 @@ Example:
 * sm_hunter_enabled - Responsible for the operation of the class on the server (Default: "1")
 * sm_hunter_cooldown - The time between each jump (Default: "6.0")
 * sm_hunter_leappower - The power of the jump (Default: "650.0")
+* sm_hunter_sound - Way to the sound (Default: "zr/hunter_jump.mp3")
 
 
 ### Changelog
+* 1.1 - Fix Cvars and add 1 new cvar
 * 1.0 - Plugin Release
